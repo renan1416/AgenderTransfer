@@ -24,32 +24,37 @@ public class Poo {
 
     }
 
-    public void setNome(String nome){
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
 
         this.nome = nome;
 
     }
-    public String getNome(){
-        return nome;
-    }
-    public void setEmail(String email){
-        this.email = email;
-    }
-    public String getEmail(){
+
+    public String getEmail() {
         return email;
 
     }
-    public void setEnderecoCasa(String enderecoCasa){
-        this.enderecoCasa = enderecoCasa;
+
+    public void setEmail(String email) {
+        this.email = email;
     }
-    public String getEnderecoCasa(){
+
+    public String getEnderecoCasa() {
         return enderecoCasa;
     }
 
+    public void setEnderecoCasa(String enderecoCasa) {
+        this.enderecoCasa = enderecoCasa;
+    }
 
     public String getEnderecoTrabalho() {
         return enderecoTrabalho;
     }
+
     public void setEnderecoTrabalho(String enderecoTrabalho) {
         this.enderecoTrabalho = enderecoTrabalho;
     }
@@ -85,7 +90,6 @@ public class Poo {
     public void setSenhaConfirmacao(String senhaConfirmacao) {
         this.senhaConfirmacao = senhaConfirmacao;
     }
-
 
 
 }
